@@ -1,16 +1,16 @@
-
-
-// // Get all elements with the class "image-interaction"
-// const imageInteractions = document.querySelectorAll('.image-interaction');
-
-// // Loop through each image interaction and add mouseover and mouseout event listeners
-// imageInteractions.forEach(interaction => {
-//     interaction.addEventListener('mouseover', function() {
-//         this.classList.add('hovered');
-//     });
-
-//     interaction.addEventListener('mouseout', function() {
-//         this.classList.remove('hovered');
-//     });
-// });
-
+document.addEventListener("DOMContentLoaded", function() {
+    const imageInteractions = document.querySelectorAll(".image-interaction");
+  
+    imageInteractions.forEach(interaction => {
+      interaction.addEventListener("mouseenter", function() {
+        this.querySelector(".overlays").classList.add("active");
+        this.querySelector("img").classList.add("active");
+      });
+  
+      interaction.addEventListener("mouseleave", function() {
+        this.querySelector(".overlays").classList.remove("active");
+        this.querySelector("img").classList.remove("active");
+      });
+    });
+  });
+  
