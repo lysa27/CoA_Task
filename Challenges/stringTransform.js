@@ -21,11 +21,11 @@ function transformString(text) {
 const text = "Helloowrtyftsiu";
 console.log(transformString(text));  // Output: 117 105 115 116 102 116 121 114 119 111 108 108 101 72
 
-const text2 = "Helloo";
-console.log(transformString(text2));  // Output: oolleH
+const text2 = "Hello";
+console.log(transformString(text2));  // Output: olleH
 
 const text3 = "World";
 console.log(transformString(text3));  // Output: 87 111 114 108 100
 
-const text4 = "Hello world";
-console.log(transformString(text4));  // Output: Hello world
+const text4 = "Helloo world";
+console.log(transformString(text4));  // Output: Helloo world

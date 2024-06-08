@@ -31,7 +31,7 @@ body {
   width: 25%;
   height: 100%;
   overflow: hidden;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s;
 }
 
 .image-interaction::before {

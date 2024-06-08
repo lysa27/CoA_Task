@@ -1,8 +1,8 @@
 function findSubarray(array, target) {
     let sum = 0;
     let start = 0;
-    
-    for (let i = 0; i < array.length; i++) {
+    let i=0;
+    for (let i ; i < array.length; i++) {
         sum += array[i];
         
         while (sum > target && start <= i) {
