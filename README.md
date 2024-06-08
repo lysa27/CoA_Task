@@ -1,5 +1,5 @@
 
-# COA-TASKFORCE-TAKE-HOME-CHALLENGE
+# COA_TASK
 
 This repository contains an interactive photo gallery and solutions to coding challenges.
 
